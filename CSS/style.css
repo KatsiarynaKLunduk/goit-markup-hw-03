@@ -66,7 +66,7 @@ body {
 .list {
   list-style-type: none;
   display: flex;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   gap: 30px;
 }
@@ -235,7 +235,7 @@ body {
   width: 572px;
   height: 54px;
   padding-top: 94px;
-  padding-bottom: 34px;
+  padding-bottom: 50px;
 }
 .button-navigation {
   font-family: inherit;
@@ -253,6 +253,9 @@ body {
   text-align: center;
   width: 121px;
   height: 38px;
+  justify-content: center;
+  gap: 0;
+  padding-right: 8px;
 }
 .button-navigation:hover,
 .button-navigation:focus {
@@ -261,12 +264,14 @@ body {
 }
 .portfolio {
   background-color: var(--brand-color-white);
-  padding-top: 34px;
   padding-bottom: 94px;
 }
 .portfolio-box {
   display: flex;
   flex-wrap: wrap;
+  width: 1170px;
+  height: 1360px;
+  align-items: center;
 }
 .portfolio-images {
   background-color: var(--brand-color-white);
