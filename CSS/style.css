@@ -26,7 +26,6 @@ li {
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0 auto;
 }
 .container {
   width: 1200px;
@@ -234,7 +233,6 @@ li {
 }
 .footer-bottom {
   background: var(--brand-color-dark-gray);
-  cursor: pointer;
   padding: 60px 0;
 }
 .footer-logo {
@@ -284,7 +282,7 @@ li {
   flex-wrap: wrap;
   gap: 30px;
   list-style: none;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 .portfolio-images {
   background-color: var(--brand-color-white);
